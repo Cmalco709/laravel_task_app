@@ -40,8 +40,6 @@ $validated = $request->validate([
 ]);
 // Create and save the task
 
-2/19/25, 12:49 PM project-day2-instructions
-
 file:///C:/Users/ryan.morales/AppData/Local/Temp/crossnote2025119-148344-1k88sz5.8bivf.html 7/12
 
 Task::create($validated);
