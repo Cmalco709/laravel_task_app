@@ -1,6 +1,6 @@
 <?php
-
 namespace Database\Seeders;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Task;
 class TaskSeeder extends Seeder
@@ -11,6 +11,7 @@ class TaskSeeder extends Seeder
 public function run(): void
 {
 Task::create([
+
 'task_name' => 'Take out trash',
 'task_location' => 'Kitchen',
 'time_complexity' => 1, // (1 => ~10 min, 2 => ~30 min, etc.)
@@ -19,5 +20,16 @@ Task::create([
 'priority' => 2, // (1 => low, 2 => medium, 3 => high)
 'category' => 'chores'
 ]);
+// add another Task::create([]); array for each item to seed
+Task::create([
+    'task_name' => 'Wash dishes',
+    'task_location' => 'Kitchen',
+    'time_complexity' => 2,
+    'materials_required' => 'Dish soap, Sponge',
+    'deadline' => '2025-02-20 11:00:00',
+    'priority' => 3,
+    'category' => 'chores'
+]
+);
 }
 }
