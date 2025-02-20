@@ -16,7 +16,7 @@
 <div>
 <strong>Deadline:</strong> {{ $task->deadline }}
 </div>
-<div>
+<div class = "{{$task->priority === 3 ? 'text-red-600' : ($task->priority === 2 ? 'text-yellow-600' : 'text-green-600') }}">
 <strong>Priority:</strong> {{ $task->priority }}
 </div>
 <div>

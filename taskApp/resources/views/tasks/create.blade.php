@@ -58,11 +58,11 @@ placeholder="e.g., chores, work, health">
 </div>
 <div class="flex gap-4">
 <button type="submit"
-class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+class="bg-[#000435] text-white px-4 py-2 rounded hover:bg-blue-600">
 Create Task
 </button>
 <a href="{{ url('/') }}"
-class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+class="bg-[#000435] text-white px-4 py-2 rounded hover:bg-gray-600">
 Cancel
 </a>
 </div>
