@@ -44,7 +44,7 @@ Task::create([
 Task::create([
     'task_name' => 'Complete project report',
     'task_location' => 'Office',
-    'time_complexity' => 5,
+    'time_complexity' => 2,
     'materials_required' => 'Computer, Documents',
     'deadline' => '2025-02-20 14:00:00',
     'priority' => 1,
@@ -57,7 +57,7 @@ Task::create([
     'time_complexity' => 3,
     'materials_required' => 'Clean clothes',
     'deadline' => '2025-02-20 14:00:00',
-    'priority' => 4,
+    'priority' => 1,
     'category' => 'chores'
 ]);
 
@@ -77,7 +77,7 @@ Task::create([
     'time_complexity' => 2,
     'materials_required' => 'Phone, Calendar',
     'deadline' => '2025-02-20 16:00:00',
-    'priority' => 4,
+    'priority' => 3,
     'category' => 'health'
 ]);
 
@@ -117,7 +117,7 @@ Task::create([
     'time_complexity' => 4,
     'materials_required' => 'Shopping list, Money',
     'deadline' => '2025-02-20 20:00:00',
-    'priority' => 5,
+    'priority' => 2,
     'category' => 'errands'
 ]);
 
@@ -127,7 +127,7 @@ Task::create([
     'time_complexity' => 1,
     'materials_required' => 'Phone',
     'deadline' => '2025-02-20 21:00:00',
-    'priority' => 4,
+    'priority' => 1,
     'category' => 'personal'
 ]);
 
@@ -147,7 +147,7 @@ Task::create([
     'time_complexity' => 2,
     'materials_required' => 'Eggs, Bread, Vegetables',
     'deadline' => '2025-02-21 09:00:00',
-    'priority' => 5,
+    'priority' => 2,
     'category' => 'health'
 ]);
 
@@ -177,7 +177,7 @@ Task::create([
     'time_complexity' => 3,
     'materials_required' => 'Book',
     'deadline' => '2025-02-21 12:00:00',
-    'priority' => 4,
+    'priority' => 1,
     'category' => 'personal'
 ]);
 
