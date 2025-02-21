@@ -28,12 +28,11 @@
 </form>
 <ul>
 @forelse($tasks as $task)
-<li class="mb-2">
+<li class="mb-1">
 {{ $task->task_name }}
 <!-- Link to the show page -->
 <a href="{{ route('tasks.show', $task->id) }}" class="text-[#000435] underline ml-2">
 View
-<div class="">
 </a>
 </li>
 </div>
