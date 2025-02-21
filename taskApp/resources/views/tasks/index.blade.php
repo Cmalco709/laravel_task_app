@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="flex justify-center items-center min-h-screen px-7">
-    <div class="bg-white p-6 rounded-lg shadow-md ">
+    <div class="bg-white p-6 rounded-lg shadow-md mt-10">
         <h1 class="text-2xl font-bold mb-4 text-center">All Tasks</h1>
         {{-- search and sort form --}}
         <form action="{{ route('tasks.index') }}" method="GET" class="mb-4">

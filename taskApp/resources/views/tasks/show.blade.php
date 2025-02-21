@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('content')
+<div class="flex justify-center items-center px-7">
+<div class="bg-white p-6 rounded-lg shadow-md ">
 <h1 class="text-2xl font-bold mb-4  ">Task Details</h1>
 <div class="mb-1">
 <strong >Task Name:</strong> {{ $task->task_name }}
@@ -26,5 +28,7 @@
 <a href="{{ route('tasks.edit', $task->id) }}" class="btn btn-primary bg-[#000435] text-white px-4 py-2 rounded hover:bg-blue-600">Edit Task</a>
 <a href="{{ route('tasks.index') }}" class="btn btn-secondary bg-[#000435] text-white px-4 py-2 rounded hover:bg-blue-600">Back to List</a>
 
+</div>
+</div>
 </div>
 @endsection

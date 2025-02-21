@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('content')
+<div class="flex justify-center items-center px-7">
+<div class="bg-white p-6 rounded-lg shadow-md ">
 <h1 class="text-2xl rounded font-bold mb-4  ">Edit Task</h1>
 <form action="{{ route('tasks.update', $task->id) }}" method="POST">
 @csrf
@@ -70,4 +72,6 @@ Delete Task
 </button>
 <a href="{{ route('tasks.show', $task->id) }}" class="btn bg-[#000435] shadow-md text-white px-4 py-2 rounded hover:bg-blue-600">Back to View</a>
 </form>
+</div>
+</div>
 @endsection
